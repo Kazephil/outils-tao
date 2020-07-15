@@ -15,6 +15,22 @@ the name of the project.
 @last modified: 2020-07-09
 '''
 
+# TODO:
+#    - Offer option to group the files by project or collate
+#      them into central memory and glossary folders
+#
+#    - Find a way to present a file dialog with a button to
+#      create a new folder
+#
+#    - Provide a GUI to select the folders and collection options
+#
+#    - Enable the selection of other glossary files or memory
+#      files in the /tm folder (or subfolders) that are not
+#      symlinks to other glossary or memory files
+#
+#    - Read default paths from a configuration file
+
+
 import shutil
 import tkinter as tk
 from pathlib import Path
